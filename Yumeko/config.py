@@ -14,12 +14,12 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 8 # integer value, dont use "6973446"
-    API_HASH = "c"
-    TOKEN = "5278jj"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    API_ID = 6435225 # integer value, dont use "6973446"
+    API_HASH = "4e984ea35f854762dcde906dce426c2d"
+    TOKEN = "5850492395:AAHIYfxao4AFhN0uIlR0vX8ycTvOf9RR29E"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID = "1866990348"  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "Sneha_UwU_OwO"
-    SUPPORT_CHAT = "tyranteyeeee"  # Your own group for support, do not add the @
+    SUPPORT_CHAT = "tpxsupport404"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
         -1001546153360
     )  # Prints any new group the bot is added to, prints just the name and ID.
@@ -28,7 +28,7 @@ class Config(object):
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "sqldbtype://username:pw@hostname:port/db_name"  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = "postgres://altxcmqe:bqNFRK-cFk3fnTGl4trJHNIxgpRX6SxA@heffalump.db.elephantsql.com/altxcmqe"  # needed for any database modules
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
